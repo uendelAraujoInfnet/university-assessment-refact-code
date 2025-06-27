@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="3-review-part-of-the-pricing-code-of-an-e-commerce-platform" />
         <module name="1-practical-refactoring-of-simple-code" />
       </profile>
     </annotationProcessing>
