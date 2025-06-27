@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/1-practical-refactoring-of-simple-code.iml" filepath="$PROJECT_DIR$/1-practical-refactoring-of-simple-code.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/university-assessment-refact-code.iml" filepath="$PROJECT_DIR$/.idea/university-assessment-refact-code.iml" />
     </modules>
   </component>
