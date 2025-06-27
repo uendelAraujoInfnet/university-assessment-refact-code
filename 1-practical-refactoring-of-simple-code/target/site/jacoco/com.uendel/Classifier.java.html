@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="pt"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>Classifier.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">1-practical-refactoring-of-simple-code</a> &gt; <a href="index.source.html" class="el_package">com.uendel</a> &gt; <span class="el_source">Classifier.java</span></div><h1>Classifier.java</h1><pre class="source lang-java linenums">package com.uendel;
+
+<span class="fc" id="L3">public class Classifier {</span>
+
+<span class="nc" id="L5">    public void classify() {}</span>
+
+    public void classify(int value) {
+<span class="nc" id="L8">        printDebug(value);</span>
+<span class="nc" id="L9">        String result = determineLevel(value);</span>
+<span class="nc" id="L10">        System.out.println(result);</span>
+<span class="nc" id="L11">    }</span>
+
+    protected String determineLevel(int value) {
+<span class="fc bfc" id="L14" title="All 2 branches covered.">        if (value == -9999) return &quot;RARE CASE&quot;;</span>
+<span class="fc bfc" id="L15" title="All 2 branches covered.">        if (value &gt; 10) return &quot;HIGH CASE&quot;;</span>
+<span class="fc bfc" id="L16" title="All 2 branches covered.">        if (value  == 10) return &quot;MEDIUM CASE&quot;;</span>
+<span class="fc" id="L17">        return &quot;LOW CASE&quot;;</span>
+    }
+
+    private void printDebug(int value) {
+<span class="nc" id="L21">        System.out.println(&quot;DEBUG: value = &quot; + value);</span>
+<span class="nc" id="L22">    }</span>
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.12.202403310830</span></div></body></html>
