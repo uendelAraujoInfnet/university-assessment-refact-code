@@ -9,6 +9,7 @@
         <module name="3-review-part-of-the-pricing-code-of-an-e-commerce-platform" />
         <module name="5-mobile-app-notifications" />
         <module name="4-user-account-management-system" />
+        <module name="6-legacy-code-that-represents-documents" />
         <module name="1-practical-refactoring-of-simple-code" />
       </profile>
     </annotationProcessing>
